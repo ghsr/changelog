@@ -1,0 +1,81 @@
+
+   * build
+20dde10 "MOB30R"
+f665835 MOB30Q
+931561f "MOB30P"
+d066358 "MOB30O"
+592c3a4 Updating security string to 2016-07-05 to release branches
+4f182df "MOB30N"
+
+   * dalvik
+338aeaf Fix potential buffer overrun.
+
+   * external/boringssl
+74750e1 Fix encoding bug in i2c_ASN1_INTEGER
+
+   * external/libavc
+cc676eb Fix slice params for interlaced video
+d4841f1 Decoder: Set u1_long_term_reference_flag to 0 for error concealment
+e629194 Decoder: Initialize slice parameters before concealing error MBs
+ecf6c7c Decoder: Memset few structures to zero to handle error clips
+a583270 Decoder: Fix for handling invalid intra mode
+
+   * external/libmpeg2
+d1c775d Fixed out of bound read in flush_bits
+
+   * external/sepolicy
+abf0663 Remove generic socket access from untrusted processes
+556bb0f Further restrict socket ioctls available to apps
+
+   * external/tremolo
+659030a Check partword is in range for # of partitions
+
+   * frameworks/av
+d112f7d Resolve a merge issue between lmp and lmp-mr1+
+f810380 MPEG4Extractor: ensure kKeyTrackID exists before creating an MPEG4Source as track.
+6fdee2a limit mediaserver memory
+e7142a0 Check malloc result to avoid NPD
+e248db0 Fix security vulnerability in libstagefright
+6054780 h264bsdActivateParamSets: Prevent multiplication overflow.
+daef432 Clear unused pointer field when sending across binder
+4f236c5 Check section size when verifying CRC
+
+   * frameworks/base
+9b8c6d2 Backport of backup transport whitelist
+d2ef34d Backport ChooserTarget package source check from N
+ec2fc50 Don't pass URL path and username/password to PAC scripts
+e83f0f6 Fix missing permission check when saving pattern/password
+
+   * frameworks/native
+54cb02a Correctly handle dup() failure in Parcel::readNativeHandle
+
+   * hardware/broadcom/wlan
+5f03047 net: wireless: bcmdhd: Update bcm4354 FW (7.35.101.3) [DO NOT MERGE]
+dafba0c net: wireless: bcmdhd: Update bcm4339 FW (6.37.34.43) [DO NOT MERGE]
+1d83113 net: wireless: bcmdhd: Update bcm4356 FW (7.35.101.3) [DO NOT MERGE]
+
+   * hardware/libhardware
+8b3d5a6 Add guest mode functionality (1/3)
+
+   * hardware/qcom/audio
+073a808 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/media
+4ed06d1 DO NOT MERGE mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+5b82f4f DO NOT MERGE mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+
+   * packages/apps/Bluetooth
+122feb9 Add guest mode functionality (3/3)
+
+   * packages/apps/Nfc
+9ea802b Verify setForegroundDispatch caller is in foreground.
+
+   * packages/apps/PackageInstaller
+16c392f [DO NOT MERGE] Bring back overlay warning in permissions UI.
+
+   * system/bt
+514139f DO NOT MERGE btif: check overflow on create_pbuf size
+37c8810 Add guest mode functionality (2/3)
+
+   * system/core
+ae18eb0 Fix scanf %s in lsof.
