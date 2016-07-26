@@ -1,0 +1,247 @@
+===================================
+Since Thu Jun  2 17:52:30 +06 2016 to Tue Jul 26 03:42:37 +06 2016
+===================================
+
+   * android
+719d8bb Android 6.0.1 Release 54 (MTC19Z)
+551285b Use the omni repo for dhcpcd
+7989f85 Manifest for Android 6.0.1 Release 46
+
+   * art
+ab918e6 ART: add new arm64 CPU variant kryo
+
+   * bootable/recovery
+0ac2293 Black screen patch for some HiSilicon devices (FBIOPAN_DISPLAY)
+
+   * build
+0eb2220 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+e2fb4e5 build: check kernel config for make modules and make dtbs
+b4bc618 qcom_target: add msm8996 to MSM_VIDC_TARGET_LIST
+567d799 "MTC19Z"
+1ec2176 releasetools: don't attempt to read fingerprint on unified devices
+465743b MTC19Y
+9134298 "MTC19X"
+141be73 Merge tag 'android-6.0.1_r46' into android-6.0-merge
+4be3823 Merge "Avoid accidentally using the host's native 'as' command." into android-6.0
+
+   * dalvik
+0359b03 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * external/dhcpcd
+521db2e Merge tag 'android-6.0.1_r46' into android-6.0
+
+   * external/flac
+4de572a Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * external/libnfc-nci
+e91aa1f nfc-nci: Add guard when using NQ NFC
+
+   * external/sepolicy
+f503bb2 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * frameworks/av
+6cd9f4d camera: Don't segfault if we get a NULL parameter
+e64cd58 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+f31f0e4 Resolve a merge issue between lmp and lmp-mr1+
+171067e Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * frameworks/base
+ecf719f Fix drawing of VectorDrawables that are rotated by 90 or 270 degrees.
+073979c Keyguard: Don't show keyguard if CryptKeeper enabled
+0a29739 base: fix button light when using encryption with unlock
+235c41e base: allow device key handlers to completely swallow events
+9e8bbcb frameworks/base: Support for third party NFC features
+1cf09e3 Merge "NFC: Allow extensions to ApduServiceInfo" into android-6.0
+32ad610 Revert "DO NOT MERGE Read Bluetooth interop database entries from settings (1/2)"
+92073ec NFC: Allow extensions to ApduServiceInfo
+2313bb2 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+11354b0 Automatic translation import
+aaecb97 KeyguardSimPinView: don't send dummy request to get remaining pin
+5e68492 SystemUI: fix wrong intent extra for screenshot edit
+43888f5 SystemUI: add edit action for screenshot notification
+bf12f29 SysteUI: Fix timeout QS tile details for light/dark
+5f9b2bf SystemUI: fix screentimeout tile icon disappearing
+3a4c7f0 base: add settings for mapping a special button
+7a33c86 Add Screen off QS Tile
+a13ace5 Add QSDetailItems
+dece137 Add Timeout QS Tile
+f3bf38b base: correctly handle header shadow of 0
+fac70ed Add Music QS Tile
+6bdd837 [1/2] SystemUI: quick settings pull down [CM squashed]
+e1e445d Keyguard: remove all quick unlock traces
+84810b2 [1/2] base: allow disabling quick settings on secure lock screens
+ccfe23d base: Screenshot Crop & Share: add draw stroke width support
+f2a5ddd Merge tag 'android-6.0.1_r46' into android-6.0-merge
+df05744 [1/2] base: Screenshot Crop & Share
+
+   * frameworks/native
+c211a21 system_server BINDER_TYPE_FD driver ashmem accessors
+71a6e76 system_server BINDER_TYPE_FD sockets using ashmem accessors
+0408857 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+e11dd0d libbinder: allow devices to disable ashmem size tracking
+8488201 Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * frameworks/opt/telephony
+ffb0017 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+1f716c4 telephony: Add oldril feature setPrefNwTypeOnUnsolConnected.
+
+   * hardware/broadcom/wlan
+c13ec2a Merge tag 'android-6.0.1_r52' into android-merge
+165fd9e Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * hardware/libhardware
+c10668a Merge "libhardware: add HWC_DISPLAY_TERTIARY bits" into android-6.0
+74c7b51 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+f2688d3 libhardware: add HWC_DISPLAY_TERTIARY bits
+adff743 Merge "hardware/libhw: Add display_defs.h to declare custom enums/flags" into android-6.0
+
+   * hardware/qcom/audio
+cf6dab9 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * hardware/qcom/bt
+e2183bd qcom/bt: add new libbt-vendor for 8996
+
+   * hardware/qcom/media
+766ef7c Merge tag 'android-6.0.1_r54' into android-6.0-merge
+c549649 Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * libcore
+5acb787 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * packages/apps/Apollo
+d1703e9 Automatic translation import
+
+   * packages/apps/Bluetooth
+8e32a6b Revert "DO NOT MERGE Read Bluetooth interop database entries from settings (2/2)"
+2a3d5aa Merge tag 'android-6.0.1_r54' into android-6.0-merge
+c0f2bba Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * packages/apps/Camera2
+b5a808a Automatic translation import
+
+   * packages/apps/Contacts
+fd0daeb [1/2] Contacts: bring back basic group support
+
+   * packages/apps/ContactsCommon
+1c02483 [2/2] ContactsCommon: bring back basic group support
+44bb283 Enable support for groups in External contacts accounts
+
+   * packages/apps/DSPManager
+50cabad Automatic translation import
+
+   * packages/apps/DeskClock
+fe34a6c Automatic translation import
+
+   * packages/apps/Dialer
+9c30cdd Dialer: adding onContactLongSelected
+
+   * packages/apps/Email
+c665994 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * packages/apps/FMRadio
+2462383 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * packages/apps/Gallery2
+7975d89 Gallery2: use accent as grid selector color
+8cccca1 Gallery2: redesign color chooser control
+ec1b1b6 Gallery2: change all share intents to chooser style
+
+   * packages/apps/Launcher3
+ae12530 Automatic translation import
+
+   * packages/apps/Nfc
+aea1301 NFC: Adding new vendor specific interface to NFC Service
+10dd7f4 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+8764f56 Allow system_server access to NFC reader mode API.
+
+   * packages/apps/OmniGears
+2875dbd Automatic translation import
+eb0305d [2/2] OmniGears: quick settings pull down [CM based]
+f427b5c [2/2] OmniGears: allow disabling quick settings on secure lock screens
+58b7b54 [2/2] OmniGears: Screenshot Crop & Share
+
+   * packages/apps/OmniSwitch
+3588879 OmniSwitch: add revert recents
+5a0e47c OmniSwitch: launcher mode - fix saving state
+58743fb OmniSwitch: launcher mode - remember state
+b01f6a7 OmniSwitch: launcher mode day 0 fixes
+481f872 Merge "OmniSwitch: add launcher mode" into android-6.0
+4767fa1 OmniSwitch: add launcher mode
+fcc602a Automatic translation import
+
+   * packages/apps/OpenDelta
+c826213 Automatic translation import
+
+   * packages/apps/PackageInstaller
+009e5e7 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+2801da0 Revert "DO NOT MERGE Take advantage of new MotionEvent flag to prevent tapjacking."
+519febe Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * packages/apps/PerformanceControl
+a2d16bd PerformanceControl: make search for I/O scheduler more flexible
+f34cf7a PerformanceControl: change share intents to chooser style
+
+   * packages/apps/Settings
+06114d1 Settings: disable the other learn more too to prevent crash
+00ca503 Settings: display BUILD_ID in device info settings
+bb2e914 Settings: hide learn more button on fingerprint page
+7f82237 fingerpint: Allow devices to configure sensor location
+1aaa73b Automatic translation import
+
+   * packages/apps/SnapdragonCamera
+eb29e7b SnapdragonCamera: Properly respect navigation bar size when laying out menus.
+3cad2c9 Improve CameraControls layout code.
+388eb86 SnapdragonCamera: hide touch fcous time menu if not supported
+65c56d5 Automatic translation import
+1de8ec7 Remove unused menu indicators code.
+ce6ef01 Revert "Camera: Propagate power mode selection from UI to lower layers."
+7900758 SnapdragonCamera: that was one string remove too much
+b2e9ecb SnapdragonCamera: mark non translatable strings
+c6f99dd add options to restart preview onPictureTaken
+34f2173 SnapdragonCamera: set translatable to "false" on some strings
+5ea4f2a Merge "Fix NPE when switching video effects and click on screen" into android-6.0
+f47d95f SnapdragonCamera: remove obsolete config hide_navigation_bar
+eb60be1 Fix NPE when switching video effects and click on screen
+a164184 SnapdragonCamera: Fixing NullPointerException in onCreate of VideoModule
+28e5a04 CameraActivity: Don't hide navigation bar
+d201110 SnapdragonCamera: Fix the memory leak on view.
+eee6a3a SnapdragonCamera: Improvement in open camera latency
+8bfb5a6 SnapdragonCamera: Fix filtering of unsupported HFR/HSR modes
+f3bfdeb SnapdragonCamera: Scale up bitrate for HSR recordings
+71bab43 SnapdragonCamera: add resolutions used on Nexus 6P
+cc03a49 SnapdragonCamera: remove all usages of 1440p camcorder
+f6daee0 SnapdragonCamera: fix initial show of remaining photos view
+55f7651 SnapdragonCamera: fix rotate in secure mode
+
+   * packages/apps/UnifiedEmail
+4c8c5f6 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * packages/services/OmniJaws
+8407c4d Automatic translation import
+
+   * packages/services/Telecomm
+f29e172 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+
+   * packages/services/Telephony
+3080925 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+1e3f7ba Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * system/core
+cd7d3da rootdir: Put bootanimation service in system-background group
+21a2352 init: Fire a trigger when a class is started/stopped
+cce0d5c healthd: Detect power supply type for all charger devices
+d5cd38c healthd: Reinitialize mChargerNames for every battery update
+3535146 healthd: Check if battery device exists instead of charger drivers before setting fake properties.
+dfbd605 Merge tag 'android-6.0.1_r54' into android-6.0-merge
+439e66e healthd: Add HVDCP Support
+e74415a Merge tag 'android-6.0.1_r46' into android-6.0-merge
+
+   * vendor/omni
+7f9d956 Merge "aosp-merge.sh: use fetch --tags" into android-6.0
+3bb1092 Merge "update omni-list" into android-6.0
+88d504a vendor: omni: utils: Add hardware/qcom/camera
+221f9cd Merge "omni: update init.local.rc" into android-6.0
+1a0f2c8 Adapt to 6.0.1_r52 backup whitelist
+3def7e0 aosp-merge.sh: use fetch --tags
+9928df1 update omni-list
+8242af3 omni: update init.local.rc
