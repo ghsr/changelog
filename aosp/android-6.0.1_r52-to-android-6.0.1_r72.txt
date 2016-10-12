@@ -1,0 +1,119 @@
+
+project build/
+c00b2e7 M4B30X
+ce897e2 M4B30W
+8f69770 Update comments around PLATFORM_SECURITY_LEVEL
+e3ab148 Update Security String to 2016-10-05 to Platform and CTS for October Security Updates (rebased)
+312b898 Update Security String to 2016-10-01 to platform and CTS for October Security
+cf4d1c7 M4B30V
+fac97b6 M4E61
+b459bb2 merge in mnc-mr3-release history after reset to mnc-dr1.5-dev
+c952e8f Update comments around PLATFORM_SECURITY_LEVEL
+cad4c75 Update Security String to 2016-10-05 to Platform and CTS for October Security Updates (rebased)
+146e3a5 Update Security String to 2016-10-01 to platform and CTS for October Security
+83290b9 M4B30T
+91fb248 M4B30S
+2d1cc19 M4B30R
+914361a "M4B30Q"
+
+project external/bouncycastle/
+52030b3 GCMParameters: in ASN1 encoding, use 12 when no value is specified
+
+project external/flac/
+2ef9ce5 src/libFLAC/stream_decoder.c : Fix NULL de-reference.
+
+project external/jhead/
+a858e84 Fix possible out of bounds accesses
+
+project external/libavc/
+426ab80 Fixed error concealment when no MBs are decoded in the current pic
+
+project external/libvpx/
+de80342 DO NOT MERGE | libvpx: cherry-pick aa1c813 from upstream
+
+project external/sonivox/
+cc623b7 Fix NULL pointer dereference
+
+project frameworks/av/
+f42ee8b MediaPlayerService: allow next player to be NULL
+0891040 Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
+b6af3b9 soundtrigger: add size check on sound model and recogntion data
+4c086a8 MediaPlayerService: avoid invalid static cast
+dda9d70 better validation lengths of strings in ID3 tags
+b569311 SoftMPEG4: Check the buffer size before writing the reference frame.
+4f7b529 Add EFFECT_CMD_SET_PARAM parameter checking
+eb11f3a DO NOT MERGE - stagefright: fix integer overflow error
+2bef075 Impose a size bound for dynamically allocated tables in stbl.
+9d32255 omx: prevent input port enable/disable for software codecs
+05713f1 Fix build
+361db9e Fix build
+3d4cb8b Add bound checks to utf16_to_utf8
+2a1a0fd fix build
+356f1de SoftVPX: fix nFilledLen overflow
+ed4f365 OMXCodec: check IMemory::pointer() before using allocation
+e9ef850 Fix corruption via buffer overflow in mediaserver
+e441275 DO NOT MERGE stagefright: fix possible stack overflow in AVCC reassemble
+10db5e0 SoftMP3: memset safely
+
+project frameworks/base/
+2dde02e DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
+3d2b855 Bind fingerprint when we start authentication - DO NOT MERGE
+a08dfe9 Process: Fix communication with zygote.
+ae3aef2 Fix vulnerability in LockSettings service
+00fad46 DO NOT MERGE: Clean up when recycling a pid with a pending launch
+5a110cf Reduce shell power over user management.
+43b5aa6 DO NOT MERGE: Allow apps with CREATE_USERS permission to call UM.getProfiles.
+d473eff DO NOT MERGE: Fix CTS regression
+efec38a DO NOT MERGE: Remove the use of JHEAD in ExifInterface
+a2041d6 DO NOT MERGE Block the user from entering safe boot mode
+637501e Add bound checks to utf16_to_utf8
+135ea8b Check caller's uid before allowing notification policy access.
+2e40f26 Fix string equality comparison
+9091f32 WifiEnterpriseConfiguration: Do not print credentials in toString
+
+project frameworks/native/
+390c2d3 ServiceManager: Allow system services running as secondary users to add services
+dbee7f4 DO NOT MERGE ServiceManager: Restore basic uid check
+07cd4cd Region: Detect malicious overflow in unflatten
+
+project frameworks/opt/net/wifi/
+47c5adb ANQPFactory: catch all potential parsing errors
+fc6c67c VenueNameElement: fix off-by-one enum bounds check
+
+project frameworks/opt/telephony/
+94ada5c DO NOT MERGE add private function convertSafeLable
+2a74727 Do not allow premium SMS during SuW
+
+project hardware/ril/
+2124ddc Replace variable-length arrays on stack with malloc.
+
+project libcore/
+0cfcb79 CipherTest: in ASN1 encoding for GCM, no value for tag size means 12
+
+project packages/apps/Email/
+a549245 Limit account id and id to longs
+e81af03 stop exporting EmailAccountCacheProvider
+
+project packages/apps/Settings/
+354b53f Pre-setup restrictions DO NOT MERGE
+
+project packages/providers/DownloadProvider/
+092d6da Enforce calling identity before clearing.
+
+project packages/providers/TelephonyProvider/
+98faa36 30481342: Security Vulnerability - TOCTOU in MmsProvider allows access to files as phone (radio) uid
+
+project packages/services/Telephony/
+23cc314 Make TTY broadcasts protected
+
+project system/core/
+e30579f Fix vold vulnerability in FrameworkListener
+e86d0e1 debuggerd: fix missed use of ptrace(PTRACE_ATTACH).
+d2d9568 DO NOT MERGE: debuggerd: verify that traced threads belong to the right process.
+3b26864 adb: use asocket's close function when closing.
+1144039 adb: switch the socket list mutex to a recursive_mutex.
+f2059d3 libutils/Unicode.cpp: Correct length computation and add checks for utf16->utf8
+
+project system/media/
+f3723a4 Camera metadata: Check for inconsistent data count
+0338e16 Camera: Prevent data size overflow
