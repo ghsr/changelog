@@ -1,0 +1,357 @@
+===================================
+Since Tue Jul 26 03:42:37 +06 2016 to Thu Oct 20 01:20:22 +06 2016
+===================================
+
+   * android
+45cb3c1 manifest: Fork external/lzma
+3d36ab7 Android 6.0.1 Release 72 (M4B30X)
+6031aef manifest: track guava and doclava repo's
+01a1616 Android 6.0.1 Release 68
+c4e0a3f Android 6.0.1 Release 62 (MTC20F)
+e6a49d5 manifest: forked Messaging
+
+   * bootable/recovery
+c0d40de Clean up PartitionSettings
+c08b236 Fix compressed backups with split archives
+bedb920 Fix restore of subpartitions
+9079c85 MD5 checking: fix issues introduced with adb backup patchset
+c45b2d5 minui: Fix gr_set_font() build issue on cm-13.0 tree.
+6c28ee8 NTFS-3g: migrate to PLATFORM_SDK check instead
+61c7c5c Gui: replace pow() function
+3126a11 wait for cryptfs device node to come up
+0e2140e Add git revision to startup message in recovery.log
+908dd25 GUI: Use standard routine for auto-reboot
+8dc25b7 Fixup reboot after install variables
+9a2a205 GUI: Add countdown & cancel to install auto-reboot
+bfccfb8 Finish creating disable_free_space_check variable
+9fa76ba Allow running of a custom script after factory reset
+4a71d4f Add build flag for forcing single buffer mode
+64dbd0d Make input whitelist and blacklist work for mouse devices too
+ad05c6d recovery: allow usage of TARGET_CRYPTFS_HW_PATH
+a481d36 Fix md5 creation from adb backup patch.
+68d5973 adbbu: fix include path, now builds again in Omni 4.4
+c81de8c Optimize and reduce size of PNG files
+9643a80 Add typecode to sgdisk for proper detection in Android
+786d734 Remove curtainClose() remnants
+25036b7 Remove unused identifier from NotifyTouch
+76b8afc Move cursor after appending date to backup name
+8323ab5 gui: fix Enter key in terminal
+ce8f83c ADB: Add adb backup for TWRP.
+
+   * build
+7630dd3 build: Fix roomservice during project validation
+415a997 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+02926d3 Merge "build: Allow all possible JDK editions by default" into android-6.0
+7bbb777 Merge tag 'android-6.0.1_r68' into android-6.0-merge
+b705691 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+010bb25 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+22c6c01 Add apq8084/msm8084 to QCOM_BOARD_PLATFORMS
+c00b2e7 M4B30X
+ce897e2 M4B30W
+8f69770 Update comments around PLATFORM_SECURITY_LEVEL
+e3ab148 Update Security String to 2016-10-05 to Platform and CTS for October Security Updates (rebased)
+312b898 Update Security String to 2016-10-01 to platform and CTS for October Security
+cf4d1c7 M4B30V
+fac97b6 M4E61
+b459bb2 merge in mnc-mr3-release history after reset to mnc-dr1.5-dev
+43c1e66 MTC20L
+c952e8f Update comments around PLATFORM_SECURITY_LEVEL
+cad4c75 Update Security String to 2016-10-05 to Platform and CTS for October Security Updates (rebased)
+146e3a5 Update Security String to 2016-10-01 to platform and CTS for October Security
+83290b9 M4B30T
+91fb248 M4B30S
+2d1cc19 M4B30R
+950509b build: Allow all possible JDK editions by default
+633dd52 "MOB31E"
+a65a6c4 Update Security String to 2016-09-06 to platform and CTS for September Security (+Quadrooter,-PZ)
+fae0c78 "MTC20K"
+8892855 Update Security String to 2016-09-06 to platform and CTS for September Security (+Quadrooter,-PZ)
+4593c72 "MTC20J"
+52f12c7 "MOB31D"
+2f6515c Update Security String to 2016-09-07 to platform and CTS for September respin
+226d7d3 "MTC20I"
+df928a7 Update Security String to 2016-09-07 to platform and CTS for September respin
+7cf61b4 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+751abc3 "MTC20H"
+8d74378 Updating security string to 2016-09-05 to platform and CTS in preparation for 2016 September OTA on mnc-dev
+b24a529 "MOB31C"
+827f04b Updating security string to 2016-09-05 to platform and CTS in preparation for 2016 September OTA on mnc-dev
+
+   * dalvik
+03b8617 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+
+   * external/bouncycastle
+52030b3 GCMParameters: in ASN1 encoding, use 12 when no value is specified
+
+   * external/dhcpcd
+34a4683 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * external/doclava
+e35c2bf Workaround for breaking change in OpenJDK 8 javadoc
+
+   * external/flac
+81a3256 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+04d13a0 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+adafbf0 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+2ef9ce5 src/libFLAC/stream_decoder.c : Fix NULL de-reference.
+
+   * external/guava
+2626f43 Backport Java 8 compile time break workaround.
+
+   * external/jhead
+d385dd6 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+3c6c3e4 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+78ba032 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+a858e84 Fix possible out of bounds accesses
+b81eb62 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * external/libavc
+426ab80 Fixed error concealment when no MBs are decoded in the current pic
+
+   * external/libvpx
+de80342 DO NOT MERGE | libvpx: cherry-pick aa1c813 from upstream
+
+   * external/lzma
+b4235c4 Set xz-java library to compile using current sdk for use by unbundled apps
+4150342 xz: Enable crc64 support
+6a45581 Import org.tukaani
+be097d9 Update the Android makefile to include most C files.
+b5e9b91 Updated LZMA SDK to 9.38 beta.
+
+   * external/sepolicy
+67abcf6 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+2212c52 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * external/sonivox
+cc623b7 Fix NULL pointer dereference
+
+   * frameworks/av
+c9c7878 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+794d4af Merge tag 'android-6.0.1_r67' into android-6.0-merge
+4e6a33a Merge tag 'android-6.0.1_r66' into android-6.0-merge
+f42ee8b MediaPlayerService: allow next player to be NULL
+0891040 Fix build breakage caused by commit 940829f69b52d6038db66a9c727534636ecc456d.
+b6af3b9 soundtrigger: add size check on sound model and recogntion data
+4c086a8 MediaPlayerService: avoid invalid static cast
+dda9d70 better validation lengths of strings in ID3 tags
+b569311 SoftMPEG4: Check the buffer size before writing the reference frame.
+4f7b529 Add EFFECT_CMD_SET_PARAM parameter checking
+eb11f3a DO NOT MERGE - stagefright: fix integer overflow error
+2bef075 Impose a size bound for dynamically allocated tables in stbl.
+9d32255 omx: prevent input port enable/disable for software codecs
+05713f1 Fix build
+361db9e Fix build
+3d4cb8b Add bound checks to utf16_to_utf8
+2a1a0fd fix build
+356f1de SoftVPX: fix nFilledLen overflow
+ed4f365 OMXCodec: check IMemory::pointer() before using allocation
+e9ef850 Fix corruption via buffer overflow in mediaserver
+e441275 DO NOT MERGE stagefright: fix possible stack overflow in AVCC reassemble
+10db5e0 SoftMP3: memset safely
+d4b3b02 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+071850e DO NOT MERGE - stagefright: fix integer overflow error
+6679b50 DO NOT MERGE - stagefright: fix integer overflow error
+
+   * frameworks/base
+2d1ed73 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+afe631c Merge tag 'android-6.0.1_r68' into android-6.0-merge
+7fe02c2 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+bb71db7 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+b8c722b Bump up the uncrypt timeout to 30 min.
+2dde02e DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be injected. -Can potentially crash system with OOM. Bug: 29555864
+3d2b855 Bind fingerprint when we start authentication - DO NOT MERGE
+a08dfe9 Process: Fix communication with zygote.
+ae3aef2 Fix vulnerability in LockSettings service
+00fad46 DO NOT MERGE: Clean up when recycling a pid with a pending launch
+5a1e56e Keyguard: fix lockscreen text color
+5a110cf Reduce shell power over user management.
+43b5aa6 DO NOT MERGE: Allow apps with CREATE_USERS permission to call UM.getProfiles.
+d473eff DO NOT MERGE: Fix CTS regression
+efec38a DO NOT MERGE: Remove the use of JHEAD in ExifInterface
+a2041d6 DO NOT MERGE Block the user from entering safe boot mode
+637501e Add bound checks to utf16_to_utf8
+135ea8b Check caller's uid before allowing notification policy access.
+2e40f26 Fix string equality comparison
+9091f32 WifiEnterpriseConfiguration: Do not print credentials in toString
+fc91d3a fix setting new encryption password
+58aa6c8 Fix clearing of retained password
+fc146b8 Port password retention feature
+be8eb7d SystemUI: fix crypt keeper race condition
+171f8fd Revert "base: fix button light when using encryption with unlock"
+bcf37fa base: handle button lights the same
+882c853 lights: Make sure the lights are out
+9fb808e [1/3] base: make overlay permission check configurable
+052a736 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+6d85c4c DO NOT MERGE: Allow apps with CREATE_USERS permission to call UM.getProfiles.
+cafabc2 DO NOT MERGE: Fix CTS regression
+90ea10c DO NOT MERGE: Allow apps with CREATE_USERS permission to call UM.getProfiles.
+5aa2601 DO NOT MERGE: Fix CTS regression
+e82e734 base: add support to translate buttons in DeviceHandler
+ccd4241 Add Sync QS Tile
+
+   * frameworks/native
+49093d1 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+aee25f7 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+5ccc164 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+390c2d3 ServiceManager: Allow system services running as secondary users to add services
+dbee7f4 DO NOT MERGE ServiceManager: Restore basic uid check
+07cd4cd Region: Detect malicious overflow in unflatten
+f37460f Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * frameworks/opt/net/wifi
+e24d8a0 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+0c2a743 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+47c5adb ANQPFactory: catch all potential parsing errors
+fc6c67c VenueNameElement: fix off-by-one enum bounds check
+b3c147b Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * frameworks/opt/telephony
+120cc89 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+c4ae16c Merge tag 'android-6.0.1_r67' into android-6.0-merge
+2b44205 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+94ada5c DO NOT MERGE add private function convertSafeLable
+2a74727 Do not allow premium SMS during SuW
+772bc3b Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * hardware/libhardware
+c3306bf Merge tag 'android-6.0.1_r66' into android-6.0-merge
+
+   * hardware/qcom/audio
+6d05fde hardware: qcom: audio: Add missing liblog dependency
+3f51be2 Allow msm8952 device to use the msm8909 HAL
+4511333 Revert "hardware: qcom: audio: Enable HAL build for msm8952 platorm"
+27f9b97 hardware: qcom: audio: Add some missing parts for suzu
+a57f6a4 hardware: qcom: audio: Enable HAL build for msm8952 platorm
+fc40f03 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+
+   * hardware/qcom/display
+a200e96 qdutils: Add 8976 mdss version id
+20cd355 qdutils: Add 8952 mdss version id
+731a73b hardware: qcom: display: Allow msm8952 platform to use msm8994 HAL
+
+   * hardware/qcom/keymaster
+44a478d hardware: qcom: keymaster: Add msm8952 to build barrier
+
+   * hardware/qcom/media
+2351097 hardware: qcom: media: Add msm8952
+38a4550 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+aeacb84 Merge tag 'android-6.0.1_r62' into android-6.0-merge
+
+   * hardware/ril
+ef2b9ac Merge tag 'android-6.0.1_r72' into android-6.0-merge
+2124ddc Replace variable-length arrays on stack with malloc.
+
+   * libcore
+ca2734d Merge tag 'android-6.0.1_r72' into android-6.0-merge
+ac1ac31 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+78a6b88 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+0cfcb79 CipherTest: in ASN1 encoding for GCM, no value for tag size means 12
+
+   * packages/apps/Bluetooth
+324f7a4 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+
+   * packages/apps/DeskClock
+2e0de38 DeskClock: sync citylist handling with upstream
+
+   * packages/apps/Email
+87897b4 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+334bdb0 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+bdc630b Merge tag 'android-6.0.1_r66' into android-6.0-merge
+a549245 Limit account id and id to longs
+e81af03 stop exporting EmailAccountCacheProvider
+
+   * packages/apps/FMRadio
+b15d493 FMRadio: Fix libfm_jni on BCM FM
+
+   * packages/apps/Gallery2
+bd27991 Gallery2: pinch to zoom for SlotView
+a3c8e21 Gallery2: use frame AND overlay image for slected
+df7dd47 Gallery2: make sure system bars will come back when required
+88c2aa0 Gallery2: add type clustering
+5fab42e Gallery2: add slideshow delay setting
+9b62fbd Gallery2: correct permission request and check
+622755a Gallery2: add album set image slideshow
+ddd4973 Gallery2: bring back settings
+f704aca Gallery2: grid vs filmstrip mode
+7c573e0 Gallery2: details as overlay panel
+09b5305 Gallery2: rework photo page layout
+5da9753 Gallery2: switch launcher icon to SnapdragonGallery
+77419c9 Gallery2: use overlay icon as selector
+51ac556 Gallery2: add photo page bottom bar
+1fa5173 Gallery2: disable chooser for edit action
+02c8843 Gallery2: disable boot receiver and streaming settings write
+
+   * packages/apps/Messaging
+0197144 Messaging: Toggable keyboard emoticons access  * Allows keyboards to always display the line return key
+
+   * packages/apps/Nfc
+f6e68cf Merge tag 'android-6.0.1_r66' into android-6.0-merge
+
+   * packages/apps/OmniSwitch
+aab8447 OmniSwitch: launcher: no ripple no fun
+68019be OmniSwitch: revert recent apps should not change order in quick switcher
+10dfe36 OmniSwitch: launcher: change essentials launch intents
+77b4ca8 OmniSwitch: launcher: dont force using a chooser for the set wallpaper intent
+d715810 OmniSwitch: handle overlay permission failures gracefully
+af97608 OmniSwitch: disable all ListView and GridView selectors
+
+   * packages/apps/PackageInstaller
+49d2dd5 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+6376cc9 [3/3] PackageInstaller: make overlay permission check configurable
+
+   * packages/apps/Settings
+877ca57 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+8c4c799 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+d59e993 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+354b53f Pre-setup restrictions DO NOT MERGE
+d315f0c [2/3] Settings: make overlay permission check configurable
+7cee8d7 Always show band 0 (Automatic)
+1cf9618 Fix FC when trying to adjust radio band via *#*#4636#*#* dialer code.
+
+   * packages/providers/DownloadProvider
+34abe25 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+092d6da Enforce calling identity before clearing.
+
+   * packages/providers/TelephonyProvider
+47093bd Merge tag 'android-6.0.1_r72' into android-6.0-merge
+98faa36 30481342: Security Vulnerability - TOCTOU in MmsProvider allows access to files as phone (radio) uid
+
+   * packages/services/Telephony
+eac5c50 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+c5cf5b0 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+68a1e52 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+23cc314 Make TTY broadcasts protected
+
+   * system/core
+d7b3dd9 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+c2c6bd2 Merge tag 'android-6.0.1_r67' into android-6.0-merge
+7c34349 Merge tag 'android-6.0.1_r66' into android-6.0-merge
+e30579f Fix vold vulnerability in FrameworkListener
+e86d0e1 debuggerd: fix missed use of ptrace(PTRACE_ATTACH).
+d2d9568 DO NOT MERGE: debuggerd: verify that traced threads belong to the right process.
+3b26864 adb: use asocket's close function when closing.
+1144039 adb: switch the socket list mutex to a recursive_mutex.
+f2059d3 libutils/Unicode.cpp: Correct length computation and add checks for utf16->utf8
+a49acb9 [2/2] core: add support for TARGET_HW_DISK_ENCRYPTION
+08d61d4 debuggerd: fix missed use of ptrace(PTRACE_ATTACH).
+4cc6d3d debuggerd: fix missed use of ptrace(PTRACE_ATTACH).
+828898e Merge tag 'android-6.0.1_r62' into android-6.0-merge
+5322e4d healthd: add DASH charging type for op3
+
+   * system/media
+6df1485 Merge tag 'android-6.0.1_r72' into android-6.0-merge
+f3723a4 Camera metadata: Check for inconsistent data count
+0338e16 Camera: Prevent data size overflow
+
+   * system/vold
+39511a1 [1/2] vold: add support for TARGET_HW_DISK_ENCRYPTION
+
+   * vendor/omni
+01b15e1 omni: update fork scripts
+29e23eb vendor: omni: utils: Add external/lzma to AOSP forked list
+a04c151 Chromium 53 stable build
+f5ee673 Merge "omni: update 32 and 64 bit chromium to 52.0.2743.83" into android-6.0
+87dbab2 vendor: omni: utils: Rename files accordingly its logics
+294fda6 vendor: omni: utils: add Messaging
+db6caa3 omni: update 32 and 64 bit chromium to 52.0.2743.83
+03f3451 sepolicy: allow gallery2 to crop avatar
