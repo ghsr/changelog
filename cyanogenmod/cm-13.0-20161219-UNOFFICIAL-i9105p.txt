@@ -1,0 +1,549 @@
+===================================
+Since Fri Oct 21 02:05:16 +06 2016 to Mon Dec 19 00:17:26 +06 2016
+===================================
+
+   * android
+48365f3 cm: Remove mm-dash repo
+72acd18 default.xml: cm: Update to 6.0.1_r74
+
+   * bootable/recovery
+16d358b Fix log text placement.
+
+   * build
+84aef033c Updating Security String to 2016-12-01
+ea2aaaeee build: repopick: Avoid failing on commits lookup
+86152e68a build: repopick: Support squashed commits for Change-Id detection
+0730edceb build: repopick: Support projects with less than 10 commits
+b78317597 repopick: handle revisions with slashes
+e5be2a0b2 repopick: don't re-pick duplicate changes
+9aa34c95a repopick: try to use remote's default revision
+e06132cf6 Revert "qcom: Select Sony display/media variants for Sony devices"
+00e9db581 kernel: Auto-set prefix based on KERNEL_ARCH
+62366951c Merge tag 'android-6.0.1_r74' into HEAD
+c5ac54757 build: qcom_target: Enable BOARD_USES_ADRENO
+5a8b10690 releasetools: Rebuild recovery when signing target images
+6fd080e10 envsetup: Fix cafremote/aospremote for projects with non-standard paths
+
+   * cts
+27984e952d merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+92576739ec Merge "Allow failing testUsbAccessory CTS test in some cases." into marshmallow-cts-dev
+b1deb8d1fb Merge "DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)" into marshmallow-cts-release
+0fdc7ea92a DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)
+e4d4378558 Merge "DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)" into marshmallow-cts-dev
+a8f267cd3e DO NOT MERGE: remove 2 hammerhead knownfailures (fixes are in)
+d54cd8dd62 merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+7dae0f7e4b Merge "Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14" into lollipop-mr1-cts-dev am: 8fea137869  -s ours" into marshmallow-cts-dev
+0f0d64f3ab Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14 am: c6f25a3d0b  -s ours" into marshmallow-cts-dev
+5805224a04 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14" into lollipop-mr1-cts-dev am: 8fea137869  -s ours
+e24d517cb1 DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14 am: c6f25a3d0b  -s ours
+8fea137869 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14" into lollipop-mr1-cts-dev
+a34d54c716 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r13" into marshmallow-cts-dev
+c6f25a3d0b DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r14
+8a7001e062 DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r13
+5706e232b1 Merge "Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev am: 78aa98cbb8" into marshmallow-cts-dev
+000e1b1569 Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits the memory usage during decode media am: 931bb65066" into marshmallow-cts-dev
+d73ab61ff6 Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev am: 78aa98cbb8
+7e464f9ae2 Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits the memory usage during decode media am: 931bb65066
+78aa98cbb8 Merge "Add CTS test for CVE_2016_2463 This test verifies whether a mp4 file limits  the memory usage during decode media" into lollipop-mr1-cts-dev
+f040cc1ef1 Merge "fix android.hardware.camera2.cts.CameraManagerTest#testManagerGetDeviceIdList for TV" into marshmallow-cts-dev
+ef2f416de2 Merge "fix android.graphics2#android.graphics2.cts.TextureViewTest#testTextureViewActivity for TV" into marshmallow-cts-dev
+9c62603883 Merge "AdaptivePlaybackTest: dequeue more output buffers at the end." into marshmallow-cts-dev
+af466e333b Merge "Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev am: 548f71f142" into marshmallow-cts-dev
+4006f9d10a Merge "Test: Fix testFindAll result listener not set issue am: 69c73541a7" into marshmallow-cts-dev
+de5966aeb1 Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev am: 548f71f142
+9e39b14851 Test: Fix testFindAll result listener not set issue am: 69c73541a7
+548f71f142 Merge "Test: Fix testFindAll result listener not set issue" into lollipop-mr1-cts-dev
+69c73541a7 Test: Fix testFindAll result listener not set issue
+f3ee58436f Merge "Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev am: 9f7059f0f8" into marshmallow-cts-dev
+9da5e4d23b Merge "Test: fix WebView testFindNext flakyness am: 77f169c80d" into marshmallow-cts-dev
+9810bb247e Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev am: 9f7059f0f8
+cc8825b5e7 Test: fix WebView testFindNext flakyness am: 77f169c80d
+9f7059f0f8 Merge "Test: fix WebView testFindNext flakyness" into lollipop-mr1-cts-dev
+4beabff3e1 Merge "Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev am: 70649a6f9e" into marshmallow-cts-dev
+40a5a27270 Merge "Don't include ScreenPinning test on auto am: be2b17c293" into marshmallow-cts-dev
+8d90ef5576 Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev am: 70649a6f9e
+685648fda9 Don't include ScreenPinning test on auto am: be2b17c293
+70649a6f9e Merge "Don't include ScreenPinning test on auto" into lollipop-mr1-cts-dev
+5b300bc68b Merge "DO NOT MERGE: Updating CTS Security Patch Month to "11" for November 2016" into marshmallow-cts-dev
+798ea4874f Merge "Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev am: 7ecee98066" into marshmallow-cts-dev
+118d9883fc Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY am: 0b8bed432c" into marshmallow-cts-dev
+d4a32d776c Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev am: 7ecee98066
+615c5fb8bd PlayVideoActivity: update comments for ENABLE_PASS_DELAY am: 0b8bed432c
+d6f63214fb Merge "Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev am: ee5668e042" into marshmallow-cts-dev
+a1f690956d Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds am: c705f34f0c" into marshmallow-cts-dev
+2cd7545ae6 Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev am: ee5668e042
+39b873ea2a streamquality: reduce ENABLE_PASS_DELAY to 5 seconds am: c705f34f0c
+7ecee98066 Merge "PlayVideoActivity: update comments for ENABLE_PASS_DELAY" into lollipop-mr1-cts-dev
+ee5668e042 Merge "streamquality: reduce ENABLE_PASS_DELAY to 5 seconds" into lollipop-mr1-cts-dev
+0b8bed432c PlayVideoActivity: update comments for ENABLE_PASS_DELAY
+c705f34f0c streamquality: reduce ENABLE_PASS_DELAY to 5 seconds
+49b45f0a9a DO NOT MERGE: Updating CTS Security Patch Month to "11" for November 2016
+84c3bee1b5 Merge "Fix StagefrightTest" into marshmallow-cts-dev
+d21dfe014a Merge "Revert "DO NOT MERGE: Add CTS For bug - 13225149"" into marshmallow-cts-dev
+3816bed127 Fix StagefrightTest
+048475048b Revert "DO NOT MERGE: Add CTS For bug - 13225149"
+ae17b23882 Merge "Remove obsolete SUID File Scanner CTS Verifier test" into marshmallow-cts-dev
+a5c47524b3 Remove obsolete SUID File Scanner CTS Verifier test
+f8774bccfb merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+4bdac6298c Merge "DO NOT MERGE: disable tests that fail on some devices (Hammerhead)" into marshmallow-cts-dev
+db176127de DO NOT MERGE: disable tests that fail on some devices (Hammerhead)
+14afdcf00a Allow failing testUsbAccessory CTS test in some cases.
+f42311e3f2 merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+ef57d13cb1 fix android.graphics2#android.graphics2.cts.TextureViewTest#testTextureViewActivity for TV
+14475f7ab0 fix android.hardware.camera2.cts.CameraManagerTest#testManagerGetDeviceIdList for TV
+be2b17c293 Don't include ScreenPinning test on auto
+77f169c80d Test: fix WebView testFindNext flakyness
+b78d5a9aa5 Merge "Disable ListeningPortsTest" into marshmallow-cts-dev
+b13c31bd49 Disable ListeningPortsTest
+12e0480288 Merge "RTSP Media tests should use redirector.gvt1.com" into marshmallow-cts-dev
+1adddd5d3e RTSP Media tests should use redirector.gvt1.com
+
+   * device/qcom/sepolicy
+3d5eb2a msm8937: boot block device needs context, too
+f297dd3 msm8937: Add context to recovery block device
+
+   * external/boringssl
+1c725f9 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * external/libavc
+a1c987b Decoder: Fixes in handling errors in Mbaff clips.
+3bd8509 Decoder: Ignore few dpb errors
+eb80228 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * external/libvpx
+8ba7fb7 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * external/sepolicy
+e7cd330 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * frameworks/av
+82016b059 soundtrigger: fix memory corruption
+fd66f406e DO NOT MERGE Fix divide by zero
+4e5f6633b Fix potential NULL dereference in Visualizer effect
+26c5fa31d Merge tag 'android-6.0.1_r74' into HEAD
+1c6e16c0b Allow to use baseline profile for AVC recording
+2e39b85ca libstagefright: wfd: don't use intra macroblock refresh mode on omap4
+
+   * frameworks/base
+afe4401a0d3 Automatic translation import
+e78632bee53 Automatic translation import
+596ffb80bb5 DO NOT MERGE) ExifInterface: Close the file when an exception happens
+54bd7b85b2e DO NOT MERGE Isolated processes don't get precached system service binders
+2df190c3a2e Automatic translation import
+948bde8da20 Support for MODE_ASK in commandline
+2905e604a69 AppOps: Do not prune apps that are not present
+0abadb1a3fb Automatic translation import
+64c8b685d34 Automatic translation import
+427433abaa7 Themes: Don't cache explicitly themed resources
+330d823c639 Build: use UserHandle.isApp for M compatibility
+512122a0164 Make Build.TYPE and Build.FINGERPRINT consistent for apps.
+7a9c884f482 zygote: Allow device to append extra whitelisted paths
+fe0a5eeffe3 SettingsLib: Fix possible NPEs
+6d2ff1d5119 zygote: Add /proc/ged to the FD whitelist
+73406be5362 frameworks/base: Addition of Changes for ZeroBalance feature
+c15736bb103 NotificationManager: Concentrate LED light capabilities at a single location
+c7d2fb722fc Add CMSDK resource APK to Zygote FD whitelist
+7c18f217d95 am: Fix mismerge
+996c5b93d6e Merge tag 'android-6.0.1_r74' into HEAD
+8ec45de6fca batteryservice: Remove remnants of CAF's HVDCP changes
+d84227cf8a4 Fix zen priority mode vibration logic.
+17224324b86 SystemUI: Fix possible NPE
+ce521ee7de0 services: battery: Don't blink with an hvdcp charger
+2d6cf0cd4d5 bootanimation: enable multithread decode by default
+3217d8c7c05 Use material icons in printer selection activity.
+
+   * frameworks/ex
+4bfd4ba Handle color bounds correctly in GIF decode.
+
+   * frameworks/opt/net/wifi
+7cbe254 resolve merge conflicts of 849c5c7 to mnc-dev
+d6b4e62 wifinative jni: check array length to prevent stack overflow
+
+   * frameworks/opt/telephony
+b51f0ccf SubscriptionInfoUpdater: Unbreak usage of TelephonyPlugin
+ca30c6aa MSIM: Pass slotId to EVENT_SIM_LOCKED_QUERY_ICCID_DONE
+4fe3e8d3 MSIM: Change access modifier of handleSimLoaded
+6ac08102 properly check empty string
+
+   * hardware/qcom/audio-caf/msm8916
+f10f3bbc Fix potential NULL dereference in Visualizer effect
+a5a1ed22 Fix potential overflow in Visualizer effect
+bc889dc4 Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.18' into cm-13.0-caf-8916
+
+   * hardware/qcom/audio-caf/msm8937
+625811c2 audio: fix compile under clang
+11a2544b hal: Allow building hardware audio encoders
+689a72c9 hal: Haxed header
+4d2257f7 hal: Fix the input device is disabled when VOICE and VOIP are active
+20a97cb8 hal: Fix device selection at start of the voice call
+
+   * hardware/qcom/audio-caf/msm8952
+8c557b8a Fix potential NULL dereference in Visualizer effect
+6c83742e Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8960
+4d306ccc hal: Port the dock support to non-legacy 8960 hal
+d7a73511 hal: Additional checks for dedicated VOIP input
+
+   * hardware/qcom/audio-caf/msm8974
+a9b4a5f6 Fix potential NULL dereference in Visualizer effect
+09faa0bf Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8994
+4ccf6579 Fix potential NULL dereference in Visualizer effect
+7a99535f Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio-caf/msm8996
+15db8268 Fix potential NULL dereference in Visualizer effect
+7227e879 Fix potential overflow in Visualizer effect
+
+   * hardware/qcom/audio/default
+8bb55861 Fix potential NULL dereference in Visualizer effect
+a1200fb6 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * hardware/qcom/display-caf/msm8916
+58585c9f4 Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.18' into cm-13.0-caf-8916
+
+   * hardware/qcom/fm
+628cfc3 Automatic translation import
+6989aac Automatic translation import
+
+   * hardware/qcom/media-caf/msm8916
+611f33471 Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.18' into cm-13.0-caf-8916
+
+   * hardware/qcom/media-caf/msm8937
+6ca488980 venc: Fix VQZip issue
+eb7926c51 Revert "venc: Disable building vqzip into the encoder for OSS"
+
+   * hardware/qcom/media-caf/msm8952
+b7baae9a5 mm-video-v4l2: vdec: Disallow input usebuffer for secure case
+
+   * hardware/qcom/media-caf/msm8974
+7ed7454ec mm-video-v4l2: vdec: Disallow input usebuffer for secure case
+
+   * hardware/qcom/media-caf/msm8994
+84a84d3f2 mm-video-v4l2: vdec: Disallow input usebuffer for secure case
+
+   * hardware/qcom/media-caf/msm8996
+6f113dc44 mm-video-v4l2: vdec: Disallow input usebuffer for secure case
+e2d259c17 Merge tag 'LA.HB.1.3.2-31300-8x96.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into HEAD
+
+   * hardware/qcom/media/default
+39df6ac88 mm-video-v4l2: vdec: Disallow input usebuffer for secure case
+
+   * hardware/ril
+37cd685 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * hardware/samsung
+14523ed macloader : add n5120 murata MAC address
+5e175cd macloader : add n5110 murata MAC address
+3d3d447 Automatic translation import
+b0ea798 power: Update DT2W_PATH
+
+   * hardware/ti/omap4
+d0cdb65 cmhw: Account for devices that don't use manager0 sysfs paths
+98079ac omap4: Fix screencast
+
+   * hardware/ti/wlan
+f61813c wl12xx: Common WLAN KM build target for reuse by devices
+
+   * libcore
+1b7c3672b Merge tag 'android-6.0.1_r74' into HEAD
+
+   * packages/apps/AudioFX
+abb28b4 Automatic translation import
+8285a81 Automatic translation import
+370f58f Automatic translation import
+f4fe364 Merge "AudioFX: Fix possible NPE" into cm-13.0
+26d0126 Merge "AudioFX: Fix possible RuntimeException" into cm-13.0
+b1c9efb AudioFX: Fix possible NPE
+57e73c4 AudioFX: Fix possible RuntimeException
+
+   * packages/apps/Bluetooth
+2bd0e35a Automatic translation import
+3fc3018c Automatic translation import
+6213dabc Merge tag 'android-6.0.1_r74' into HEAD
+
+   * packages/apps/BluetoothExt
+bf91d96 Automatic translation import
+
+   * packages/apps/Browser
+92689bdb Automatic translation import
+ebcd2576 Automatic translation import
+48fcc0f3 Automatic translation import
+
+   * packages/apps/CMBugReport
+a93f6ff Automatic translation import
+9c6b578 Automatic translation import
+
+   * packages/apps/CMFileManager
+72d449b Automatic translation import
+b62f584 Automatic translation import
+f5fd769 Automatic translation import
+e07015f Automatic translation import
+2085157 Automatic translation import
+1aea5a8 Properly upgrade DB.
+740efc6 FileManager: Editor: Fix race on completion wait/notify
+52f0f09 CMFileManager: Save history records when quitting
+042e0a0 CMFileManager: Remove top & bottom padding in FS info dialog
+85bde2e CMFileManager: Modify disk usage graph's layout
+4dab55e CMFileManager: Show loading dialog while loading files
+a2fdbf9 Revert "CMFM: Fix landscape/rotation issues in file system info dialog"
+d686360 Show message to user when toggling word wrap mode
+5afe58b CMFileManager: Do not create multiple action dialogs
+59c9f19 CMFileManager: Refresh the disk usage graph when layout size change
+967dc87 Fix rename of files ending with . on sdcard
+
+   * packages/apps/CMUpdater
+b2e5962 Automatic translation import
+b873adf Automatic translation import
+55a47cf Automatic translation import
+
+   * packages/apps/CMWallpapers
+fcbdc68 Automatic translation import
+
+   * packages/apps/Calendar
+c8d466f5 Automatic translation import
+b4573d15 Automatic translation import
+
+   * packages/apps/Camera2
+d2bffe684 Automatic translation import
+
+   * packages/apps/CarrierConfig
+6fe76ed national roaming: NRJ (France) can also use Bouygues
+
+   * packages/apps/CellBroadcastReceiver
+076843c Automatic translation import
+b02c253 Automatic translation import
+694502a Automatic translation import
+
+   * packages/apps/Contacts
+915711a39 Automatic translation import
+e2519bce3 Automatic translation import
+5f911a25b Contacts: Fix infinite loop in queryContactProviderByRawContactIds
+
+   * packages/apps/ContactsCommon
+50af90d1 Automatic translation import
+24d0b7a0 Automatic translation import
+
+   * packages/apps/DeskClock
+7ac4a3f1 Automatic translation import
+2749cdc6 Automatic translation import
+06aa35b8 Automatic translation import
+
+   * packages/apps/Dialer
+52934765 Automatic translation import
+473ec1f4 Automatic translation import
+6f4c90f6 Automatic translation import
+
+   * packages/apps/Eleven
+15b929b Automatic translation import
+392d312 Automatic translation import
+a2325be Fix MediaSession queue handling.
+
+   * packages/apps/Email
+87086514c Automatic translation import
+4b3982a8a Merge tag 'android-6.0.1_r74' into HEAD
+
+   * packages/apps/Gallery2
+2fd75d16e Automatic translation import
+
+   * packages/apps/Gello
+83d107a4 Automatic translation import
+7a590853 Automatic translation import
+122e0797 Automatic translation import
+7bc358a9 Automatic translation import
+
+   * packages/apps/InCallUI
+947d72d4 Automatic translation import
+32355968 Automatic translation import
+dc5de1e1 Automatic translation import
+270c5c09 Revert "Add rtl support to GlowPadView"
+
+   * packages/apps/LockClock
+d538638 Automatic translation import
+0aaee16 Automatic translation import
+5ad279b Automatic translation import
+
+   * packages/apps/Messaging
+5c6b3d6 Automatic translation import
+f900fd2 Automatic translation import
+fe193c2 Automatic translation import
+c25973a Messaging: Fix incorrect equality check
+
+   * packages/apps/PhoneCommon
+42895b2 Automatic translation import
+
+   * packages/apps/Profiles
+943cbe5 Automatic translation import
+a811676 Automatic translation import
+
+   * packages/apps/SamsungServiceMode
+9246bae Automatic translation import
+
+   * packages/apps/Screencast
+6f025ad Automatic translation import
+cd51032 Automatic translation import
+
+   * packages/apps/Settings
+43e0d3d3b Automatic translation import
+5b2a4dd97 Automatic translation import
+8fa03070b Automatic translation import
+7ac57f0dd Automatic translation import
+cba388432 Automatic translation import
+630dfa8a5 DataUsageUtils: Clean up based on code review
+c2da9ad6a telephony: Disable the SIM state change receiver
+4f954a904 NotificationLightSettings: Remove noop fields when LED can't pulse
+34a780de7 Settings: Hide Reset action if Battery LED is not multicolor
+bbd02a64e Settings: Make proximity wake string more accurate
+c83e96c1a lights: Use NotificationManager to figure out LED capabilities
+f6d341de9 Settings: Fix mismerge
+9f5f2fb94 Merge tag 'android-6.0.1_r74' into HEAD
+7955711d5 SecuritySettings: Fix KeyStore related NPE's
+a12c0a3ff Add setup UI for minimum delay between an app's notification sounds.
+046fc5c48 Allow selecting vibration mode during zen priority mode.
+8d5925b2d Settings: Apn: Don't dereference a null mSubscriptionInfo
+
+   * packages/apps/SetupWizard
+694b0dd Automatic translation import
+bb68c41 Automatic translation import
+9a819bc Automatic translation import
+ed94620 Automatic translation import
+d82b2dc GmsAccount: If there's no network and FRP isn't enforcing, skip GMS
+
+   * packages/apps/Snap
+ccb7efa2c Automatic translation import
+3266dc7c7 Automatic translation import
+d1428f81a Automatic translation import
+c6697187b Automatic translation import
+537e5226c Snap: Fix possible NPE
+beec60c94 Snap: Fix possible RuntimeException (due to NPE)
+832a6b06a Fix off-by-one error in sub menu selection highlight.
+85e8e6d1c Fix off-by-one error in submenu selection handling.
+
+   * packages/apps/SoundRecorder
+2924a0f Automatic translation import
+9ba65d0 Automatic translation import
+
+   * packages/apps/Stk
+16a7773 Automatic translation import
+
+   * packages/apps/Terminal
+b30df78 Automatic translation import
+3c3e603 Automatic translation import
+
+   * packages/apps/ThemeChooser
+d6a19db Automatic translation import
+8917931 Automatic translation import
+cb15a34 Automatic translation import
+076579d Automatic translation import
+89a23e5 ThemeChooser: Fix possible IllegalArgumentException
+
+   * packages/apps/Trebuchet
+ea10a6568 Automatic translation import
+7dcda58e8 Automatic translation import
+83db891ce Automatic translation import
+
+   * packages/apps/TvSettings
+a18343f Merge "Automatic translation import" into cm-13.0
+0f06b37 Automatic translation import
+96aa22a Automatic translation import
+69b89f8 Automatic translation import
+6583d06 Automatic translation import
+
+   * packages/apps/UnifiedEmail
+e0f9d4fa7 ActivityControler: Fix BadPacelableException in certain scenarios
+60a1f110d Automatic translation import
+f0bcbde0b Automatic translation import
+
+   * packages/inputmethods/LatinIME
+af0c9e4a2 LatinIME: Remove gesture preference if gesture lib is unavailable
+
+   * packages/providers/DataUsageProvider
+b2862a1 Automatic translation import
+
+   * packages/providers/DownloadProvider
+8299a4c Automatic translation import
+6287e5e Automatic translation import
+2e7c315 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * packages/providers/TelephonyProvider
+8f137e7 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * packages/providers/ThemesProvider
+5722029 Automatic translation import
+
+   * packages/providers/WeatherProvider
+5ba443f Automatic translation import
+
+   * packages/services/CMAudioService
+7358a5d Automatic translation import
+4e55718 Automatic translation import
+
+   * packages/services/LiveLockScreenService
+f353e0d Automatic translation import
+d5227e5 Automatic translation import
+
+   * packages/services/Telecomm
+b533d3b3 Automatic translation import
+01882f2d Adapt test to API changes.
+
+   * packages/services/Telephony
+ec629d26 Automatic translation import
+4737ab7e Automatic translation import
+65565518 Unexport OmtpMessageReceiver
+6e5d1fc5 Restrict SipProfiles to profiles directory
+6d513cba Automatic translation import
+871a9be1 Automatic translation import
+
+   * packages/services/ThemeManagerService
+d81b596 Automatic translation import
+
+   * packages/services/WeatherService
+30577c8 Automatic translation import
+
+   * packages/wallpapers/Galaxy4
+3f84861 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam
+d84b3fd Automatic translation import
+9f4b558 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase
+4b67f7b Automatic translation import
+51da92a Automatic translation import
+1846f8a Automatic translation import
+
+   * system/core
+420d1624 Fix out of bound access in libziparchive
+656154a5 init: Fix possible open file pointer
+85f740eb Merge tag 'android-6.0.1_r74' into HEAD
+
+   * system/media
+c37b3f88 Merge tag 'android-6.0.1_r74' into HEAD
+
+   * vendor/cm
+727abbe apns: Update hollandsnieuwe's (NL) APN
+ad92890 version: Set version string to 13.0.5 to reflect security update
+dee68b3 Add Reliance Jio India IMS volte apn's
+6074aa7 Fix Reliance Jio India APNs.
+1d729b4 vendor: cm: Add some more BQ maintainers/devices
+2e78b08 Contributors: Add maintainer for Xiaomi Redmi 3/Prime (ido)
+72f4855 cm: Add more Mi 5 maintainers
+f9e5462 Contributors: Add Xiaomi Mi 5 maintainer
+a36653b config: common: Remove obsolete RomManager props
+9d73aa1 apns: Remove loop and bpl mobile
+f375ac5 apns: Add Reliance Jio APNs
+8c6cc93 vendor_cm: Vodafone TR: Fix mobile data on first boot
+3d3b3bf Fix Truphone APN
+65c1819 Add a new APN for new mcc/mnc assigned to Truphone
+615d84b version: Set version string to 13.0.4 to reflect security update
+cbc9b90 extract_utils: Add option to define the certificate for jars
+877f046 Update apns
+
+   * vendor/cmsdk
+19cd1b9 Automatic translation import
+db4e449 Automatic translation import
+8bc08a9 Automatic translation import
+493ad4f Automatic translation import
+82c2dae Automatic translation import
