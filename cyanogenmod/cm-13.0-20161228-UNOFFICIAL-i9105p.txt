@@ -1,0 +1,282 @@
+===================================
+Since Mon Dec 19 00:17:26 +06 2016 to Wed Dec 28 01:02:59 +06 2016
+===================================
+
+   * cts
+103ce626a2 merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+fa36387207 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r14" into marshmallow-cts-dev
+45ee6c5394 DO NOT MERGE: Bump CTS and CTS Verifier to 6.0_r14
+4d854d5c5d Merge "Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev am: 3a305c3279  -s ours" into marshmallow-cts-dev
+92e869a528 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15 am: c130f518cb  -s ours" into marshmallow-cts-dev
+32a2cd7d7c Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev am: 3a305c3279  -s ours
+4ec2291692 DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15 am: c130f518cb  -s ours
+2baea747c5 Merge "Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev am: f79104e001  -s ours" into marshmallow-cts-dev
+93a836ae83 Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test am: 939f04975d  -s ours" into marshmallow-cts-dev
+b0a685f2a4 Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev am: f79104e001  -s ours
+bdfebe0a7e DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test am: 939f04975d  -s ours
+cb798b3668 Merge "Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: d922b399a5" into marshmallow-cts-dev
+d5547f9380 Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev am: 82ff4d6a86" into marshmallow-cts-dev
+e0d71cce8b Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: d922b399a5
+129f356809 Test: Add testClearFormData to lollipop-mr1-cts-dev am: 82ff4d6a86
+028c1b5f45 Merge "Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: e4e6c3d725" into marshmallow-cts-dev
+6350685d75 Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev am: e4e6c3d725
+e6dbcc6142 Merge "DO NOT MERGE resolve merge conflicts of f5f94cc to marshmallow-cts-dev " into marshmallow-cts-dev
+dfdd2afc5f DO NOT MERGE resolve merge conflicts of f5f94cc to marshmallow-cts-dev
+82709bb43c Merge "Enable wifi before device policy wifi tests start." into marshmallow-cts-dev
+3a305c3279 Merge "DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15" into lollipop-mr1-cts-dev
+c130f518cb DO NOT MERGE: Bump CTS and CTS Verifier to 5.1_r15
+7ed92f74c9 Merge "Removed BLE RPA timeout check" into marshmallow-cts-dev
+8f10ed816c Merge "Fix AlarmIntentTest layout" into marshmallow-cts-dev
+1d5a6eb242 Merge "Prompt for mode setting only if setting is available" into marshmallow-cts-dev
+4bd061d716 Merge "Description:We use finalview.post in ondraw method,when this message can not be excuted quickly in the message queue, the ondraw() will be called more than once and get some more finalview.post message,  That will lead to DrawWaiter.waitForDrawComplete() invalid in android.widget.cts.ListViewTest test case. Bug:33159262" into marshmallow-cts-dev
+f79104e001 Merge "DO NOT MERGE: Added test_required_features for AppWidgetServiceImpl Test" into lollipop-mr1-cts-dev
+d922b399a5 Merge "Test: Add testClearFormData to lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev
+e4e6c3d725 Merge "Test: Add testOnReceivedLoginRequest to WebViewClientTest in  lollipop-mr1-cts-dev" into lollipop-mr1-cts-dev
+
+   * frameworks/base
+4b4e8b379c8 StatusBarIconView: Enable notification icon count by default
+e103f5b6279 SettingsProvider: Remove def_notif_count overlay
+b837eefeb88 Automatic translation import
+e74ee31f3ce Fix "Error parsing XML: not well-formed"
+177fada3930 Automatic translation import
+a869679d6e2 Automatic translation import
+65e14f67e34 Automatic translation import
+
+   * hardware/qcom/fm
+7dbda9a Automatic translation import
+75c42fd Automatic translation import
+
+   * hardware/samsung
+4e6358b macloader : add murata MAC addresses
+ad1d536 Automatic translation import
+0a58fdb Automatic translation import
+
+   * packages/apps/AudioFX
+5a6949c Automatic translation import
+06bd4c5 Automatic translation import
+
+   * packages/apps/Bluetooth
+e0cdabbd Automatic translation import
+e73bdfe2 Automatic translation import
+
+   * packages/apps/BluetoothExt
+2b6a6c0 Automatic translation import
+
+   * packages/apps/Browser
+07c6f514 Automatic translation import
+77ea1e87 Automatic translation import
+
+   * packages/apps/CMBugReport
+b78133a Automatic translation import
+
+   * packages/apps/CMFileManager
+76e91cf Automatic translation import
+28e7782 Automatic translation import
+
+   * packages/apps/CMUpdater
+52fdd1c Automatic translation import
+3582f26 Automatic translation import
+
+   * packages/apps/CMWallpapers
+b03a88c Automatic translation import
+
+   * packages/apps/Calendar
+a71664f7 Automatic translation import
+32422f41 Automatic translation import
+05182e41 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver
+98021c8 Automatic translation import
+cce3b9b Automatic translation import
+
+   * packages/apps/Contacts
+e2283bd37 Automatic translation import
+452243d21 Automatic translation import
+e62262faf Automatic translation import
+
+   * packages/apps/ContactsCommon
+ae3697f8 Automatic translation import
+ab80b51b Automatic translation import
+
+   * packages/apps/DeskClock
+da126df8 Automatic translation import
+6129df05 Automatic translation import
+
+   * packages/apps/Dialer
+e733996f Automatic translation import
+cdad7ecc Automatic translation import
+1b881d76 Automatic translation import
+
+   * packages/apps/Eleven
+cc469b3 Automatic translation import
+8f3f0bb Automatic translation import
+
+   * packages/apps/Email
+ac643a8e3 Automatic translation import
+81a17d9e6 Automatic translation import
+
+   * packages/apps/Gallery2
+bc110b75f Automatic translation import
+
+   * packages/apps/Gello
+6f2bbcd5 Automatic translation import
+41addbfc Automatic translation import
+
+   * packages/apps/InCallUI
+0964112d Automatic translation import
+628e73a4 Fix "Error parsing XML: not well-formed"
+d7d18036 Automatic translation import
+323c471e Automatic translation import
+
+   * packages/apps/LockClock
+64fb78d Automatic translation import
+8b674a0 Automatic translation import
+
+   * packages/apps/ManagedProvisioning
+9d760da Automatic translation import
+
+   * packages/apps/Messaging
+d5fc4ce Automatic translation import
+
+   * packages/apps/PhoneCommon
+4c0d1e5 Automatic translation import
+bf95bb9 Automatic translation import
+
+   * packages/apps/Profiles
+c050de1 Automatic translation import
+76c3a26 Automatic translation import
+
+   * packages/apps/SamsungServiceMode
+6a43f82 Automatic translation import
+
+   * packages/apps/Screencast
+4e191bd Automatic translation import
+6ab61ba Automatic translation import
+
+   * packages/apps/Settings
+43d5629cf Settings: statusbar: Enable notification icon count by default
+25d0c7dff Automatic translation import
+8ed5285d1 Automatic translation import
+1e09c05d6 Automatic translation import
+d4bcbcf97 Automatic translation import
+
+   * packages/apps/SetupWizard
+584f1f3 Automatic translation import
+
+   * packages/apps/Snap
+c82a4aac2 Automatic translation import
+e5a7489d3 Automatic translation import
+de52be20a Automatic translation import
+
+   * packages/apps/SoundRecorder
+498a161 Automatic translation import
+d71aea5 Automatic translation import
+
+   * packages/apps/Terminal
+c27ec18 Automatic translation import
+
+   * packages/apps/ThemeChooser
+870d934 Automatic translation import
+266d61c Automatic translation import
+4d5fd9b Automatic translation import
+
+   * packages/apps/Trebuchet
+770a23de2 Automatic translation import
+e79ec4328 Automatic translation import
+45fe64627 Automatic translation import
+
+   * packages/apps/TvSettings
+e14203b Automatic translation import
+8a16085 Automatic translation import
+95ee086 Automatic translation import
+
+   * packages/apps/UnifiedEmail
+7a14afb38 Automatic translation import
+fd9ecebcd Automatic translation import
+
+   * packages/providers/DataUsageProvider
+638805b Automatic translation import
+03432df Automatic translation import
+
+   * packages/providers/DownloadProvider
+cc21663 Automatic translation import
+
+   * packages/providers/ThemesProvider
+c349af8 Automatic translation import
+
+   * packages/providers/WeatherProvider
+5be11d6 Automatic translation import
+8205176 Automatic translation import
+
+   * packages/screensavers/PhotoTable
+c2fe354 Automatic translation import
+bff5ff6 Automatic translation import
+0d70dda Automatic translation import
+
+   * packages/services/CMAudioService
+298fd3b Automatic translation import
+bff4e3f Automatic translation import
+d5dee81 Automatic translation import
+
+   * packages/services/LiveLockScreenService
+9aa3e11 Automatic translation import
+f9c8427 Automatic translation import
+4acf97a Automatic translation import
+
+   * packages/services/Mms
+f5c6bbc Automatic translation import
+
+   * packages/services/Telecomm
+8c966a8e Automatic translation import
+128bbd45 Automatic translation import
+d9c8023e Automatic translation import
+
+   * packages/services/Telephony
+d6269a46 Automatic translation import
+5fca9b4a Automatic translation import
+1b90f687 Automatic translation import
+
+   * packages/services/ThemeManagerService
+a8a322c Automatic translation import
+27aedc6 Automatic translation import
+0193092 Automatic translation import
+
+   * packages/services/WeatherService
+8945354 Automatic translation import
+42e319b Automatic translation import
+866ffe3 Automatic translation import
+
+   * packages/wallpapers/Basic
+0236b04 Automatic translation import
+
+   * packages/wallpapers/Galaxy4
+11812a4 Automatic translation import
+
+   * packages/wallpapers/HoloSpiral
+6f3e1af Automatic translation import
+
+   * packages/wallpapers/LivePicker
+ee49657 Automatic translation import
+
+   * packages/wallpapers/MagicSmoke
+ffe94a7 Automatic translation import
+
+   * packages/wallpapers/NoiseField
+789201e Automatic translation import
+
+   * packages/wallpapers/PhaseBeam
+f2c4616 Automatic translation import
+69ab072 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase
+0f076a3 Automatic translation import
+5fa2695 Automatic translation import
+
+   * vendor/cm
+7f06bc7 cm: Remove def_notif_count overlay
+35aa457 cm: common: Remove Launcher3 makefile entry
+
+   * vendor/cmsdk
+c2a0f08 Automatic translation import
+132cb52 Automatic translation import
+a9c3f69 Automatic translation import
