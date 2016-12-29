@@ -1,3 +1,22 @@
+
+====================
+     06-19-2016
+====================
+SystemUI: detect rotation and resize mKeyguardBlur accordingly  …
+
+Fix NPE in DocumentsUI when rotate UI before format as internal  …
+
+
+Revert "Only show keyguard panel if on lockscreen + no activity on top"  …
+
+
+
+SysUI: Don't let rogue themes ruin notifications  …
+
+  
+Themes: Expose Power Dialogs  …
+
+DocumentsUI : Hide advanced menu option when in forced mode  …
 ====================
      06-16-2016
 ====================
